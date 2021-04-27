@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWProject" id="{0a8cbee3-4c75-4cf0-a3dd-1e023ee439f0}">
+		<property name="assetPath">
+			<value>platzi_diseño_sonoro.rpp.link/</value>
+		</property>
+		<property name="dawProjectPath">
+			<value>C:/Users/User/Desktop/Platzi Diseño Sonoro/Reaper/platzi_diseño_sonoro.rpp</value>
+		</property>
+		<property name="renderedAssetsPath">
+			<value>Audio</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8a6c26b-7b00-4eaf-ad73-34cc7aefc274}</destination>
+		</relationship>
+	</object>
+</objects>
