@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7297cdee-4af9-41ac-902e-66f6a83692cc}">
+		<property name="name">
+			<value>helicoptero</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84a99b7a-1295-4839-a71e-497f13284c5c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cf7b06d0-c9f0-4b23-870f-e7a5741ae3d0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cf7b06d0-c9f0-4b23-870f-e7a5741ae3d0}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
