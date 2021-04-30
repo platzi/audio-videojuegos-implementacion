@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{fef6ad20-1eff-4272-9829-a4078d0bef68}">
+		<property name="assetPath">
+			<value>platzi_diseño_sonoro.rpp.link/platzi_diseño_sonoro_alfombra_take_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.46231250000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b8a6c26b-7b00-4eaf-ad73-34cc7aefc274}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{9e9009b5-f6a5-4904-a3d1-80f703215e6f}</destination>
+		</relationship>
+	</object>
+</objects>
