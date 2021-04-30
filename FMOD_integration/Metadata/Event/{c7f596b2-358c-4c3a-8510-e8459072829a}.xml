@@ -133,6 +133,8 @@
 		<relationship name="effects">
 			<destination>{cab9b419-73c0-42b5-b935-3071d43cddde}</destination>
 			<destination>{c74d1bab-81ef-4cfa-89e0-29b0ac395237}</destination>
+			<destination>{2eff93ff-8c7c-46ec-9ea8-ac37deafeef8}</destination>
+			<destination>{8af089ed-7f4d-4fa5-8ebf-e69674428a32}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2f75ab5-9847-45c2-b91d-33279212159e}" />
@@ -147,6 +149,49 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c74d1bab-81ef-4cfa-89e0-29b0ac395237}" />
+	<object class="DelayEffect" id="{2eff93ff-8c7c-46ec-9ea8-ac37deafeef8}">
+		<property name="delay">
+			<value>60</value>
+		</property>
+		<property name="feedback">
+			<value>39.5</value>
+		</property>
+		<property name="dryLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{8af089ed-7f4d-4fa5-8ebf-e69674428a32}">
+		<property name="decayTime">
+			<value>5000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>12</value>
+		</property>
+		<property name="lateDelay">
+			<value>27</value>
+		</property>
+		<property name="HFReference">
+			<value>1900</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>48</value>
+		</property>
+		<property name="diffusion">
+			<value>67</value>
+		</property>
+		<property name="density">
+			<value>34</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>440</value>
+		</property>
+		<property name="lowShelfGain">
+			<value>-14.5</value>
+		</property>
+		<property name="highCut">
+			<value>3200</value>
+		</property>
+	</object>
 	<object class="ADSRModulator" id="{48402de4-eb83-4876-8030-17375998de6e}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
