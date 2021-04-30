@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DAWAsset" id="{7793e3bb-7d8d-417e-9fa7-f11a62f999a8}">
+		<property name="assetPath">
+			<value>platzi_diseño_sonoro.rpp.link/platzi_diseño_sonoro_caida_suelo_take_6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.43066666666666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9120e536-b086-4ac8-a941-89711bdd3728}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{c2b1695e-9b73-4de8-9c12-4983a342e7ba}</destination>
+		</relationship>
+	</object>
+</objects>

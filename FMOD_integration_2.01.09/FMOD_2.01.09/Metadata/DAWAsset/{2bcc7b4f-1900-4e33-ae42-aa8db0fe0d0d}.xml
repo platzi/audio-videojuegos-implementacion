@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DAWAsset" id="{2bcc7b4f-1900-4e33-ae42-aa8db0fe0d0d}">
+		<property name="assetPath">
+			<value>platzi_diseño_sonoro.rpp.link/platzi_diseño_sonoro_suelo_take_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.46231250000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9120e536-b086-4ac8-a941-89711bdd3728}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{c2b1695e-9b73-4de8-9c12-4983a342e7ba}</destination>
+		</relationship>
+	</object>
+</objects>

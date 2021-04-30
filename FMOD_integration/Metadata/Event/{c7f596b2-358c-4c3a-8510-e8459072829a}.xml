@@ -173,23 +173,8 @@
 		<property name="HFReference">
 			<value>1900</value>
 		</property>
-		<property name="HFDecayRatio">
-			<value>48</value>
-		</property>
-		<property name="diffusion">
-			<value>67</value>
-		</property>
-		<property name="density">
-			<value>34</value>
-		</property>
-		<property name="lowShelfFrequency">
-			<value>440</value>
-		</property>
 		<property name="lowShelfGain">
 			<value>-14.5</value>
-		</property>
-		<property name="highCut">
-			<value>3200</value>
 		</property>
 	</object>
 	<object class="ADSRModulator" id="{48402de4-eb83-4876-8030-17375998de6e}">

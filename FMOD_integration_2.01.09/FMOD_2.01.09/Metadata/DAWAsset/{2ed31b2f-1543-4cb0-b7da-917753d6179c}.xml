@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DAWAsset" id="{2ed31b2f-1543-4cb0-b7da-917753d6179c}">
+		<property name="assetPath">
+			<value>platzi_diseño_sonoro.rpp.link/25-210428_1820.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>15.187301587301587</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9120e536-b086-4ac8-a941-89711bdd3728}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{c2b1695e-9b73-4de8-9c12-4983a342e7ba}</destination>
+		</relationship>
+	</object>
+</objects>
