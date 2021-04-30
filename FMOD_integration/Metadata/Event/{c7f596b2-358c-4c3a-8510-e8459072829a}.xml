@@ -97,12 +97,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{24f96c21-5d14-41bb-9c38-0ff009d3a4f3}">
-		<property name="volume">
-			<value>-4.5</value>
-		</property>
 		<property name="name">
 			<value>Disparo</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{12d4c448-d5ee-4e82-a335-98a7eed675aa}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{adbb7daf-611b-4654-aabf-0f3ba86b8df7}</destination>
 		</relationship>
@@ -121,13 +121,59 @@
 	</object>
 	<object class="MixerBusPanner" id="{7bc79948-74da-4dbd-8ca5-f5b1f4512c64}" />
 	<object class="MixerBusFader" id="{07b3847d-f7a4-4dc2-a781-7dfcc3057fdb}" />
+	<object class="RandomizerModulator" id="{12d4c448-d5ee-4e82-a335-98a7eed675aa}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>2</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{adbb7daf-611b-4654-aabf-0f3ba86b8df7}">
 		<relationship name="effects">
+			<destination>{cab9b419-73c0-42b5-b935-3071d43cddde}</destination>
 			<destination>{c74d1bab-81ef-4cfa-89e0-29b0ac395237}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2f75ab5-9847-45c2-b91d-33279212159e}" />
 	<object class="MixerBusFader" id="{5a5ef22b-3399-40a3-90f7-f1bffe3b1cbc}" />
 	<object class="SpatialiserEffect" id="{546b725a-4093-4dbd-8cc5-944a49bb8d4a}" />
+	<object class="PitchShifterEffect" id="{cab9b419-73c0-42b5-b935-3071d43cddde}">
+		<property name="pitch">
+			<value>0.899999976</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{48402de4-eb83-4876-8030-17375998de6e}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{c74d1bab-81ef-4cfa-89e0-29b0ac395237}" />
+	<object class="ADSRModulator" id="{48402de4-eb83-4876-8030-17375998de6e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="initialValue">
+			<value>-1</value>
+		</property>
+		<property name="attackTime">
+			<value>491.282166</value>
+		</property>
+		<property name="peakValue">
+			<value>97.777771</value>
+		</property>
+		<property name="holdTime">
+			<value>841.880432</value>
+		</property>
+		<property name="decayTime">
+			<value>817.948608</value>
+		</property>
+		<property name="sustainValue">
+			<value>53.3333282</value>
+		</property>
+		<property name="releaseTime">
+			<value>679.487305</value>
+		</property>
+		<property name="finalValue">
+			<value>-17</value>
+		</property>
+	</object>
 </objects>
